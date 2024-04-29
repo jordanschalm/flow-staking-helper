@@ -1,0 +1,147 @@
+{
+	"contracts": {
+		"FlowClusterQC": {
+			"source": "contracts/utility/FlowClusterQC.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7"
+			}
+		},
+		"FlowDKG": {
+			"source": "contracts/utility/FlowDKG.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7"
+			}
+		},
+		"FlowEpoch": {
+			"source": "contracts/utility/FlowEpoch.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7"
+			}
+		},
+		"FlowFees": {
+			"source": "contracts/utility/FlowFees.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7"
+			}
+		},
+		"FlowIDTableStaking": {
+			"source": "contracts/utility/FlowIDTableStaking.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7"
+			}
+		},
+		"FlowStakingCollection": {
+			"source": "contracts/utility/FlowStakingCollection.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7"
+			}
+		},
+		"FlowStorageFees": {
+			"source": "contracts/utility/FlowStorageFees.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7"
+			}
+		},
+		"FlowToken": {
+			"source": "contracts/utility/FlowToken.cdc",
+			"aliases": {
+				"emulator": "0ae53cb6e3f42a79",
+				"mainnet": "1654653399040a61",
+				"testnet": "7e60df042a9c0868"
+			}
+		},
+		"FungibleToken": {
+			"source": "contracts/utility/FungibleToken.cdc",
+			"aliases": {
+				"emulator": "ee82856bf20e2aa6",
+				"mainnet": "f233dcee88fe0abe",
+				"testnet": "9a0766d93b6608b7"
+			}
+		},
+		"FungibleTokenMetadataViews": {
+			"source": "contracts/utility/FungibleTokenMetadataViews.cdc",
+			"aliases": {
+				"emulator": "ee82856bf20e2aa6",
+				"mainnet": "f233dcee88fe0abe",
+				"testnet": "9a0766d93b6608b7"
+			}
+		},
+		"LockedTokens": {
+			"source": "contracts/utility/LockedTokens.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7"
+			}
+		},
+		"MetadataViews": {
+			"source": "contracts/utility/MetadataViews.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"mainnet": "1d7e57aa55817448",
+				"testnet": "631e88ae7f1d7c20"
+			}
+		},
+		"NFTStorefront": {
+			"source": "contracts/utility/NFTStorefront.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"mainnet": "4eb8a10cb9f87357",
+				"testnet": "94b06cfca1d8a476"
+			}
+		},
+		"NFTStorefrontV2": {
+			"source": "contracts/utility/NFTStorefrontV2.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"mainnet": "4eb8a10cb9f87357",
+				"testnet": "2d55b98eb200daef"
+			}
+		},
+		"NonFungibleToken": {
+			"source": "contracts/utility/NonFungibleToken.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"mainnet": "1d7e57aa55817448",
+				"testnet": "631e88ae7f1d7c20"
+			}
+		},
+		"RandomBeaconHistory": {
+			"source": "contracts/utility/RandomBeaconHistory.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"mainnet": "e467b9dd11fa00df",
+				"testnet": "8c5303eaa26202d6"
+			}
+		},
+		"StakingHelper": "contracts/StakingHelper.cdc",
+		"ViewResolver": {
+			"source": "contracts/utility/ViewResolver.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"mainnet": "1d7e57aa55817448",
+				"testnet": "631e88ae7f1d7c20"
+			}
+		}
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"default": {
+			"address": "f3fcd2c1a78f5eee",
+			"key": "6d12eebfef9866c9b6fa92b97c6e705c26a1785b1e7944da701fc545a51d4673"
+		},
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "6d12eebfef9866c9b6fa92b97c6e705c26a1785b1e7944da701fc545a51d4673"
+		}
+	},
+	"deployments": {
+		"emulator": {
+			"default": [
+				"StakingHelper"
+			]
+		}
+	}
+}
